@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.5rem;
+}
+
+.sports_container{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    align-items: flex-end;
+}
+
+.sports_title{
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.code_btn{
+    background-color: rgb(134, 138, 134);
+}
